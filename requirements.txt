@@ -1,0 +1,6 @@
+scikit-learn
+pandas
+mlflow
+dvc[ssh] # or other remote type
+evidently
+pyyaml

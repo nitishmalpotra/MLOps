@@ -1,0 +1,14 @@
+data:
+  raw_path: "data/raw/dataset.csv"
+  processed_path: "data/processed/features.csv"
+  target_column: "your_target_column"
+
+model:
+  name: "LogisticRegression"
+  params:
+    C: 1.0
+    solver: "liblinear"
+
+mlflow:
+  experiment_name: "MyClassificationProject"
+  tracking_uri: "http://localhost:5000" # Your MLflow tracking server URI
